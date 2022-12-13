@@ -93,12 +93,11 @@ body {
 .btn {
 	align-self: flex-start;
 	border: none;
-	padding: 1.5rem 3rem;
-	background-color: hsl(5, 85%, 63%);
 }
 
 .btn a:link,
 .btn a:visited {
+	background-color: hsl(5, 85%, 63%);
 	border: none;
 	color: white;
 	text-transform: uppercase;
@@ -106,7 +105,7 @@ body {
 	font-weight: 700;
 	letter-spacing: 0.5rem;
 	align-self: flex-start;
-
+	padding: 1.5rem 3rem;
 	margin-top: 4.2rem;
 	font-family: "Inter", sans-serif;
 	text-decoration: none;
@@ -206,7 +205,7 @@ body {
 
 .ts-subtitle a:hover,
 .ts-subtitle a:active {
-	color: hsl(5, 85%, 63%);
+	color: hsl(5, 85%, 62%);
 }
 
 .ts-synopsis {

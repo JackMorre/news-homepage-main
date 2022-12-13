@@ -185,7 +185,7 @@
 		transform: translateX(40rem);
 		/* pointer-events: none; */
 		/* visibility: hidden; */
-		transition: all 0.3s ease-in;
+		transition: all 0.5s ease;
 		z-index: 10;
 	}
 

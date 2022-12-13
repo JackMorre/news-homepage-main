@@ -64,6 +64,7 @@
 	}
 
 	.body-container {
+		max-width: 60rem;
 		margin: 0 2rem;
 	}
 	.logo {
@@ -182,8 +183,8 @@
 		align-items: center;
 		opacity: 0;
 		transform: translateX(40rem);
-		pointer-events: none;
-		visibility: hidden;
+		/* pointer-events: none; */
+		/* visibility: hidden; */
 		transition: all 0.3s ease-in;
 		z-index: 10;
 	}

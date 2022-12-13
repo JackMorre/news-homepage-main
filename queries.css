@@ -183,9 +183,9 @@
 		align-items: center;
 		opacity: 0;
 		transform: translateX(40rem);
-		/* pointer-events: none; */
-		/* visibility: hidden; */
-		transition: all 0.5s ease;
+		pointer-events: none;
+		visibility: hidden;
+		transition: all 1s;
 		z-index: 10;
 	}
 
@@ -198,7 +198,7 @@
 		opacity: 1;
 		pointer-events: auto;
 		visibility: visible;
-		transform: translateX(0);
+		transform: translateX(0rem);
 	}
 
 	.nav-open .icon-close {
